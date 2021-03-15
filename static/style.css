@@ -1,0 +1,19 @@
+html, body { 
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	scroll-behavior: smooth;
+}
+
+#main{
+	height: 100%; 
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center_logo{
+	max-width: 50%;
+	max-height: 60%;
+}

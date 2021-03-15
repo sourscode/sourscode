@@ -1,0 +1,17 @@
+__pycache__/
+__pycache__
+__pycache__/*
+*.py[cod]
+*$py.class
+*.env
+.env
+poetry.lock
+pyproject.toml
+package-lock.json
+*.p
+.p
+*.pyc
+.pyc
+*.cpython-3.8.pyc
+.cpython-3.8.pyc
+debug.log
