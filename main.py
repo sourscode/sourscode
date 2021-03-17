@@ -1,14 +1,10 @@
-main_color = "E2C044"
-alt_color = "413C58"
-
 #Flask Server and Routing
-from flask import Flask, send_from_directory, request
+from flask import Flask, send_from_directory
 from flask_mobility import Mobility
 from flask_talisman import Talisman
 
 #Date
 from datetime import datetime
-t = datetime.today().strftime('%Y-%m-%d-%H-%M-%S')
 
 from random import randint
 
@@ -58,6 +54,11 @@ Talisman(app, content_security_policy=None)
 @app.route('/')
 def main():
 	#index.html
+	t = datetime.today().strftime('%Y-%m-%d-%H-%M-%S')
+	
+	main_color = "E2C044"
+	alt_color = "413C58"
+
 	if randint(0,1):
 		return codecs.open('web/index.html', 'r', 'utf-8').read().replace("REPLACE", t)
 	else:
