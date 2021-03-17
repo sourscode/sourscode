@@ -2,7 +2,7 @@
 	"name": "sourscode",
 	"short_name": "sourscode",
 	"scope": "/",
-	"start_url": "https://sourscode.repl.co/",
+	"start_url": "/",
 	"icons": [
 		{
 			"src": "static/icon-192.png",
